@@ -6,7 +6,7 @@ script:
   - docker build -t mannydesigns/node .
   - docker images mannydesigns/node
   before_deploy:
-    - docker login -u brocklife  -p Godisgreat4me
+    - docker login -u brocklife  -p  Godisgreat4me
   
   deploy:
     provider: script
